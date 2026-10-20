@@ -17,12 +17,12 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="hero" className="relative overflow-hidden">
+    <section id="hero" className="relative overflow-hidden ">
       <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="Background"></img>
       </div>
 
-      <div className="hero-layout">
+      <div className="hero-layout xl:ml-15 xl:mr-15">
         {/* LEFT - Hero Content */}
         <header className="flex flex-col justify-center md:w-full w-screen md:px20 px-5">
           <div className="flex flex-col gap-7">
