@@ -143,42 +143,36 @@ const techStackIcons = [
 
 const expCards = [
   {
+    logoPath: "/images/brain.png",
+    title: "StudyFlow — Personal Project",
+    date: "October 2026 - Present",
+    responsibilities: [
+      "Built an AI-powered study platform featuring collaborative study rooms, rich-text note-taking, and focused study sessions.",
+      "Integrated Supabase authentication and database operations to manage users, study rooms, notes, and study session data.",
+      "Developed an AI chat assistant using the Gemini API, integrating backend services to generate contextual study responses.",
+    ],
+  },
+  {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "We were truly amazed by his showcased skills and invaluable contributions to the tasks and projects throughout the internship ",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    logoPath: "/images/briefcase-business.png",
+    title: "Full-Stack Developer",
+    date: "August 2026 - September 2026",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed a full-stack job portal with dedicated interfaces for job seekers and recruiters.",
+      "Implemented recruiter authentication, job listings, and application management using React, Node.js, Express, and MongoDB.",
+      "Built RESTful APIs and integrated database operations to support job posting, browsing, and application workflows.",
     ],
   },
   {
-    review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    logoPath: "/images/joystick.png",
+    title: "Checkpoint — Personal Project",
+    date: "April 2026 - September 2026",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed a video game tracking platform using React and Vite, integrating the RAWG API to display game information.",
+      "Implemented game discovery and library management features to help users explore and organize their gaming collections.",
+      "Built a responsive user interface with reusable components and interactive elements for a seamless browsing experience.",
     ],
   },
 ];
