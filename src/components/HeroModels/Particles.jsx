@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useRef, useMemo } from "react";
 import { useFrame } from "@react-three/fiber";
 
