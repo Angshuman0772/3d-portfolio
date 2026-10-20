@@ -17,7 +17,9 @@ const HeroExperience = () => {
         enableZoom={!isTablet && !isMobile}
         maxDistance={10}
         minDistance={2}
-        minPolarAngle={Math.PI / 5}
+        minAzimuthAngle={-Math.PI / 100}
+        maxAzimuthAngle={Math.PI / 2}
+        minPolarAngle={Math.PI / 3}
         maxPolarAngle={Math.PI / 2}
         target={[0, -1, 2]}
       />
