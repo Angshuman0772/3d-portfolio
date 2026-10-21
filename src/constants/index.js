@@ -11,10 +11,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+  // {
+  //   name: "Testimonials",
+  //   link: "#testimonials",
+  // },
 ];
 
 const words = [
@@ -110,22 +110,22 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "Frontend (React + Tailwind CSS)",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
+    name: "Backend (Node.js + Express.js)",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
+  },
+  {
+    name: "Python (AI / ML)",
+    modelPath: "/models/python-transformed.glb",
+    scale: 0.8,
+    rotation: [0, 0, 0],
   },
   {
     name: "Interactive Developer",
@@ -134,7 +134,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Version Control",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -143,6 +143,19 @@ const techStackIcons = [
 
 const expCards = [
   {
+    review:
+      "We were truly amazed by his showcased skills and invaluable contributions to the tasks and projects throughout the internship ",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/briefcase-business.png",
+    title: "Full-Stack Development Intern",
+    date: "August 2026 - September 2026",
+    responsibilities: [
+      "Developed a full-stack job portal with dedicated interfaces for job seekers and recruiters.",
+      "Implemented recruiter authentication, job listings, and application management using React, Node.js, Express, and MongoDB.",
+      "Built RESTful APIs and integrated database operations to support job posting, browsing, and application workflows.",
+    ],
+  },
+  {
     logoPath: "/images/brain.png",
     title: "StudyFlow — Personal Project",
     date: "October 2026 - Present",
@@ -150,19 +163,6 @@ const expCards = [
       "Built an AI-powered study platform featuring collaborative study rooms, rich-text note-taking, and focused study sessions.",
       "Integrated Supabase authentication and database operations to manage users, study rooms, notes, and study session data.",
       "Developed an AI chat assistant using the Gemini API, integrating backend services to generate contextual study responses.",
-    ],
-  },
-  {
-    review:
-      "We were truly amazed by his showcased skills and invaluable contributions to the tasks and projects throughout the internship ",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/briefcase-business.png",
-    title: "Full-Stack Developer",
-    date: "August 2026 - September 2026",
-    responsibilities: [
-      "Developed a full-stack job portal with dedicated interfaces for job seekers and recruiters.",
-      "Implemented recruiter authentication, job listings, and application management using React, Node.js, Express, and MongoDB.",
-      "Built RESTful APIs and integrated database operations to support job posting, browsing, and application workflows.",
     ],
   },
   {
